@@ -17,7 +17,7 @@ gulp.task('build', () =>
         .src('./scss/greset.scss')
         .pipe(sass())
         .pipe(postcss(plugins))
-        .pipe(gulp.dest('./dist')),
+        .pipe(gulp.dest('./css')),
 );
 
 gulp.task('dev', () => gulp.watch('./scss/**.scss', gulp.series('build')));
