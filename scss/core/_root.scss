@@ -1,0 +1,18 @@
+:root {
+    font-size: 16px;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-size: 100%;
+}
+
+html,
+button {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
