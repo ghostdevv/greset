@@ -13,7 +13,8 @@
     "url": "https://github.com/ghostdevv/greset/issues"
   },
   "scripts": {
-    "dev": "sass scss/greset.scss dist/greset.scss --watch"
+    "dev": "npm run build -- --watch",
+    "build": "sass scss/greset.scss dist/greset.scss --style=compressed"
   },
   "homepage": "https://github.com/ghostdevv/greset#readme",
   "dependencies": {
