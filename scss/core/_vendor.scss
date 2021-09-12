@@ -1,28 +1,28 @@
 ::-webkit-search-decoration {
-	-webkit-appearance: none;
+    -webkit-appearance: none;
 }
 
 ::-webkit-file-upload-button {
-	-webkit-appearance: button; 
-	font: inherit; 
+    -webkit-appearance: button;
+    font: inherit;
 }
 
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
-	height: auto;
+    height: auto;
 }
 
 :-moz-ui-invalid {
-	box-shadow: none;
+    box-shadow: none;
 }
 
 :-moz-focusring {
-	outline: 1px dotted ButtonText;
+    outline: 1px dotted ButtonText;
 }
 
 button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
-	-webkit-appearance: button;
+    -webkit-appearance: button;
 }
