@@ -39,45 +39,45 @@ button {
 }
 
 [type='search'] {
-	-webkit-appearance: textfield; 
-	outline-offset: -2px; 
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
 }
 
 summary {
-	display: list-item;
+    display: list-item;
 }
 
 progress {
-	vertical-align: baseline;
+    vertical-align: baseline;
 }
 
 legend {
-	padding: 0;
+    padding: 0;
 }
 
 hr {
-	height: 0; 
-	color: inherit; 
+    height: 0;
+    color: inherit;
 }
 
 abbr[title] {
-	text-decoration: underline dotted;
+    text-decoration: underline dotted;
 }
 
 sub,
 sup {
-	font-size: 75%;
-	line-height: 0;
-	position: relative;
-	vertical-align: baseline;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
 }
 
 sub {
-	bottom: -0.25em;
+    bottom: -0.25em;
 }
 
 sup {
-	top: -0.5em;
+    top: -0.5em;
 }
 
 button,
@@ -85,13 +85,13 @@ input,
 optgroup,
 select,
 textarea {
-	font-family: inherit; 
-	font-size: 100%; 
-	line-height: 1.15; 
-	margin: 0; 
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
 }
 
 button,
 select {
-	text-transform: none;
+    text-transform: none;
 }
