@@ -30,7 +30,7 @@
     "sass": "^1.39.2"
   },
   "files": [
-    "dist",
+    "css",
     "scss",
     "LICENSE",
     "README.md"
