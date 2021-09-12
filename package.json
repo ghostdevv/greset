@@ -1,6 +1,6 @@
 {
   "name": "greset",
-  "version": "1.0.0-0",
+  "version": "1.0.0",
   "description": "A opinionated css reset based on the most popular resets to date",
   "sass": "./scss/greset.scss",
   "type": "module",
