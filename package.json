@@ -1,0 +1,19 @@
+{
+  "name": "greset",
+  "version": "1.0.0",
+  "description": "A opinionated css reset based on the most popular resets to date",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghostdevv/greset.git"
+  },
+  "author": "GHOST ghostdevbusiness@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ghostdevv/greset/issues"
+  },
+  "homepage": "https://github.com/ghostdevv/greset#readme",
+  "dependencies": {
+    "rfs": "^9.0.6"
+  }
+}
