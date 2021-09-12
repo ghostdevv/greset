@@ -1,6 +1,6 @@
 {
   "name": "greset",
-  "version": "1.0.0",
+  "version": "1.0.0-0",
   "description": "A opinionated css reset based on the most popular resets to date",
   "main": "index.js",
   "repository": {
@@ -21,5 +21,11 @@
   },
   "devDependencies": {
     "sass": "^1.39.2"
-  }
+  },
+  "files": [
+    "dist",
+    "scss",
+    "LICENSE",
+    "README.md"
+  ]
 }
