@@ -12,8 +12,14 @@
   "bugs": {
     "url": "https://github.com/ghostdevv/greset/issues"
   },
+  "scripts": {
+    "dev": "sass scss/greset.scss dist/greset.scss --watch"
+  },
   "homepage": "https://github.com/ghostdevv/greset#readme",
   "dependencies": {
     "rfs": "^9.0.6"
+  },
+  "devDependencies": {
+    "sass": "^1.39.2"
   }
 }
