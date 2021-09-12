@@ -22,7 +22,10 @@
     "rfs": "^9.0.6"
   },
   "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "cssnano": "^5.0.8",
     "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.0.0",
     "sass": "^1.39.2"
   },
