@@ -10,5 +10,5 @@ You can by importing or cdn:
 
 -   CDN
     ```html
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/greset@1/css/greset.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/greset@2/css/greset.css" />
     ```
