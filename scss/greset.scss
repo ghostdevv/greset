@@ -14,7 +14,6 @@
 
 @import './fonts/sizes';
 @import './fonts/family';
-@import './fonts/weights';
 @import './fonts/elements';
 
 img {
@@ -94,4 +93,11 @@ textarea {
 button,
 select {
     text-transform: none;
+}
+
+figure {
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
 }
