@@ -9,7 +9,7 @@ $sizes: (
     'h6': 1rem 300,
 );
 
-@each $ele, $touple in $headings {
+@each $ele, $touple in $sizes {
     #{$ele} {
         @include font-size(nth($touple, 1));
         font-weight: nth($touple, 2);
