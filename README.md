@@ -26,3 +26,7 @@ You can by importing or cdn:
         href="https://cdn.jsdelivr.net/npm/greset@2/css/greset.css"
     />
     ```
+
+# Changes
+
+Please feel free to [suggest changes](https://github.com/ghostdevv/greset/issues/new), I am trying to make the best reset possible so always open to issues/pr's if you can find things that need changing/patching
