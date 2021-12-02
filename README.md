@@ -1,16 +1,28 @@
 # greset
-A opinionated css reset based on the most popular resets to date
+
+An opinionated css reset based on the most popular resets to date, including hard reset, normalize, and modern normalize!
 
 # Use
+
 You can by importing or cdn:
 
-> If you bundle your code and you are able to import css files, you can just do `import 'greset'`
-
 -   Importing
-    - `greset/scss/greset.scss`
-    - `greset/css/greset.css`
+
+    -   CSS
+
+        ```css
+        @import 'node_modules/greset/greset.css';
+        ```
+
+    -   Bundled
+        ```js
+        import 'greset';
+        ```
 
 -   CDN
     ```html
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/greset@2/css/greset.css" />
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/greset@2/css/greset.css"
+    />
     ```
