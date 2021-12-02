@@ -35,6 +35,7 @@
     "css",
     "scss",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "greset.css"
   ]
 }
