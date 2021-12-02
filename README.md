@@ -23,7 +23,7 @@ You can by importing or cdn:
     ```html
     <link
         rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/greset@2/css/greset.css"
+        href="https://cdn.jsdelivr.net/npm/greset@2/greset.css"
     />
     ```
 
