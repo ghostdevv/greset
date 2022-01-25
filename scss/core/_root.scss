@@ -1,17 +1,15 @@
-:root {
+:where(:root) {
     font-size: 16px;
     font-weight: normal;
 }
 
-html,
-body {
+:where(html, body) {
     margin: 0;
     height: 100%;
     font-size: 100%;
 }
 
-html,
-button {
+:where(html, button) {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;

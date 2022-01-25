@@ -1,6 +1,4 @@
-*,
-::before,
-::after {
+:where(*, ::before, ::after) {
     -ms-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -16,86 +14,78 @@
 @import './fonts/family';
 @import './fonts/elements';
 
-img {
+:where(img) {
     max-width: 100%;
 }
 
-table {
+:where(table) {
     border-collapse: collapse;
     border-spacing: 0;
 }
 
-caption,
-th,
-td {
+:where(caption, th, td) {
     text-align: left;
     font-weight: normal;
     vertical-align: middle;
 }
 
-button {
+:where(button) {
     cursor: pointer;
 }
 
-[type='search'] {
+:where([type='search']) {
     -webkit-appearance: textfield;
     outline-offset: -2px;
 }
 
-summary {
+:where(summary) {
     display: list-item;
 }
 
-progress {
+:where(progress) {
     vertical-align: baseline;
 }
 
-legend {
+:where(legend) {
     padding: 0;
 }
 
-hr {
+:where(hr) {
     height: 0;
     color: inherit;
 }
 
-abbr[title] {
+:where(abbr[title]) {
     text-decoration: underline dotted;
 }
 
-sub,
-sup {
+:where(sub, sup) {
     font-size: 75%;
     line-height: 0;
     position: relative;
     vertical-align: baseline;
 }
 
-sub {
+:where(sub) {
     bottom: -0.25em;
 }
 
-sup {
+:where(sup) {
     top: -0.5em;
 }
 
-button,
-input,
-optgroup,
-select,
-textarea {
+:where(button, input, optgroup, select, textarea) {
     font-family: inherit;
     font-size: 100%;
     line-height: 1.15;
     margin: 0;
 }
 
-button,
-select {
+:where(button, select) {
     text-transform: none;
 }
 
-figure {
+:where(figure) {
     display: block;
     margin: 0;
     padding: 0;

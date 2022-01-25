@@ -1,28 +1,24 @@
-::-webkit-search-decoration {
+:where(::-webkit-search-decoration) {
     -webkit-appearance: none;
 }
 
-::-webkit-file-upload-button {
+:where(::-webkit-file-upload-button) {
     -webkit-appearance: button;
     font: inherit;
 }
 
-::-webkit-inner-spin-button,
-::-webkit-outer-spin-button {
+:where(::-webkit-inner-spin-button, ::-webkit-outer-spin-button) {
     height: auto;
 }
 
-:-moz-ui-invalid {
+:where(:-moz-ui-invalid) {
     box-shadow: none;
 }
 
-:-moz-focusring {
+:where(:-moz-focusring) {
     outline: 1px dotted ButtonText;
 }
 
-button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
+:where(button, [type='button'], [type='reset'], [type='submit']) {
     -webkit-appearance: button;
 }
