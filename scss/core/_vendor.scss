@@ -1,24 +1,28 @@
-:where(::-webkit-search-decoration) {
+::-webkit-search-decoration {
     -webkit-appearance: none;
 }
 
-:where(::-webkit-file-upload-button) {
+::-webkit-file-upload-button {
     -webkit-appearance: button;
     font: inherit;
 }
 
-:where(::-webkit-inner-spin-button, ::-webkit-outer-spin-button) {
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
     height: auto;
 }
 
-:where(:-moz-ui-invalid) {
+:-moz-ui-invalid {
     box-shadow: none;
 }
 
-:where(:-moz-focusring) {
+:-moz-focusring {
     outline: 1px dotted ButtonText;
 }
 
-:where(button, [type='button'], [type='reset'], [type='submit']) {
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
     -webkit-appearance: button;
 }

@@ -1,15 +1,21 @@
-:where(input, select, textarea) {
+input,
+select,
+textarea {
     font: inherit;
 }
 
-:where(a, ins) {
+a,
+ins {
     text-decoration: none;
 }
 
-:where(u) {
+u {
     text-decoration: underline;
 }
 
-:where(pre, code, samp, kbd) {
+pre,
+code,
+samp,
+kbd {
     font-family: monospace;
 }

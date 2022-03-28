@@ -16,12 +16,20 @@ $sizes: (
     }
 }
 
-:where(strong, b, mark) {
+strong,
+b,
+mark {
     font-weight: bold;
     font-style: inherit;
 }
 
-:where(em, i, cite, q, address, dfn, var) {
+em,
+i,
+cite,
+q,
+address,
+dfn,
+var {
     font-style: italic;
     font-weight: inherit;
 }
