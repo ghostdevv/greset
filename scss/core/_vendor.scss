@@ -26,3 +26,11 @@ button,
 [type='submit'] {
     -webkit-appearance: button;
 }
+
+html,
+button {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

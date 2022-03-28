@@ -15,21 +15,3 @@ $sizes: (
         font-weight: nth($touple, 2);
     }
 }
-
-strong,
-b,
-mark {
-    font-weight: bold;
-    font-style: inherit;
-}
-
-em,
-i,
-cite,
-q,
-address,
-dfn,
-var {
-    font-style: italic;
-    font-weight: inherit;
-}
