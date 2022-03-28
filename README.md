@@ -6,6 +6,14 @@
 
 greset is an opinionated reset (and normaliser) based on the most popular resets to date!
 
+Main features:
+
+- The best box sizing: `box-sizing: border-box`
+- Designed with newer browsers in mind
+- Reactive font sizes thanks to [rfs](https://getbootstrap.com/docs/5.0/getting-started/rfs/)
+- Semantic html first
+
+
 # Use
 
 You can by importing or cdn:
