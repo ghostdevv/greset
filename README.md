@@ -12,6 +12,7 @@ Main features:
 - Designed with newer browsers in mind
 - Reactive font sizes thanks to [rfs](https://getbootstrap.com/docs/5.0/getting-started/rfs/)
 - Semantic html first
+- Autoprefixer used
 
 
 # Use
