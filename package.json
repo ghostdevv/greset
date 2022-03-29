@@ -33,7 +33,7 @@
   },
   "files": [
     "css",
-    "scss",
+    "src",
     "LICENSE",
     "README.md",
     "greset.css"
