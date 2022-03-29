@@ -14,7 +14,7 @@ const plugins = [
 
 gulp.task('build', () =>
     gulp
-        .src('./scss/greset.scss')
+        .src('./src/greset.scss')
         .pipe(sass())
         .pipe(postcss(plugins))
         .pipe(gulp.dest('.')),
