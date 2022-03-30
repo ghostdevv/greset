@@ -132,8 +132,9 @@ video {
     box-sizing: border-box;
 }
 
+:root,
 html,
-:root {
+body {
     /**
      ** Correct line height
      */
@@ -155,9 +156,7 @@ html,
      */
     font-size: 16px;
     font-weight: normal;
-}
 
-body {
     /**
      ** Normalise default font
      */
