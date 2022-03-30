@@ -368,3 +368,11 @@ progress {
 summary {
     display: list-item;
 }
+
+/**
+ ** Contain overflow on specific elements (opinions)
+ */
+figure,
+pre {
+    overflow-x: auto;
+}
