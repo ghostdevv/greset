@@ -136,6 +136,11 @@ video {
 html,
 body {
     /**
+     ** Correct initial height
+     */
+    height: 100%;
+
+    /**
      ** Correct line height
      */
     line-height: 1.15;
