@@ -310,14 +310,19 @@ textarea {
     font-size: 100%;
 }
 
-/**
- ** Correct the inability to style clickable types in iOS and Safari
- */
 button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
+    /**
+    ** Correct the inability to style clickable types in iOS and Safari
+    */
     -webkit-appearance: button;
+
+    /**
+    ** Set pointer type
+    */
+    cursor: pointer;
 }
 
 /**
