@@ -1,6 +1,6 @@
 {
   "name": "greset",
-  "version": "2.0.0-12",
+  "version": "2.0.0-13",
   "description": "A opinionated css reset based on the most popular resets to date",
   "main": "./greset.css",
   "sass": "./scss/greset.scss",
@@ -32,7 +32,6 @@
     "sass": "^1.39.2"
   },
   "files": [
-    "css",
     "src",
     "LICENSE",
     "README.md",
