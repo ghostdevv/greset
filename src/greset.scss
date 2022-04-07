@@ -138,7 +138,8 @@ body {
     /**
      ** Correct initial height
      */
-    height: 100%;
+    min-height: 100%;
+    height: auto;
 
     /**
      ** Correct line height
