@@ -14,10 +14,10 @@ const plugins = [
 
 gulp.task('build', () =>
     gulp
-        .src('./scss/greset.scss')
+        .src('./src/greset.scss')
         .pipe(sass())
         .pipe(postcss(plugins))
-        .pipe(gulp.dest('./css')),
+        .pipe(gulp.dest('.')),
 );
 
 gulp.task('dev', () => gulp.watch('./scss/**.scss', gulp.series('build')));
