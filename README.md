@@ -48,6 +48,14 @@ You can by importing or cdn:
     @import 'node_modules/greset/greset.css';
     ```
 
+# Migrating from v1
+
+- Changing imports:
+    We moved from publishing in `/css/greset.css` to just `/greset.css`. You can see about [how to import greset v2 here](#use) 
+
+- CSS Changes:
+    Most of the css we removed was only targeting very old browsers. However there might be some CSS that effect your modern code, as such it's only recommended to update on newer or maintained projects. No point migrating old projects to the new version.
+
 # Changes
 
 Please feel free to [suggest changes](https://github.com/ghostdevv/greset/issues/new), all help is welcome in working to improve and maintain greset.
